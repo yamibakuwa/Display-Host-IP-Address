@@ -4,7 +4,7 @@ This Python script allows you to retrieve the hostname and IP address of your lo
 
 ## Prerequisites
 
-- Python installed on your system.
+- Jupyter Notebook installed on your system.
 
 ## How it works
 
@@ -20,6 +20,12 @@ This Python script allows you to retrieve the hostname and IP address of your lo
 4. **Displaying Host Information**:
    We print out the hostname and IP address obtained using the functions described above.
 
+## Usage
+
+1. Open a Python environment (such as Jupyter Notebook).
+2. Copy and paste the code snippet into your Python environment.
+3. Execute the script to see your hostname and IP address printed in the output.
+
 ## Code Snippet
 
 ```python
@@ -28,14 +34,12 @@ import socket
 print('Host name:', socket.gethostname())
 print('Host IP address:', socket.gethostbyname(socket.gethostname()))
 
-Host name: your-host-name
-Host IP address: your-ip-address
 
+```
+## Output
 
-Host name: your-host-name
-Host IP address: your-ip-address
-## Usage
+```python
+Hostname: your-host-name
+Host IP Address: your-ip-address
 
-    Open a Python environment (such as Jupyter Notebook).
-    Copy and paste the code snippet into your Python environment.
-    Execute the script to see your host name and IP address printed in the output.
+```
